@@ -1,460 +1,175 @@
 {
-  "productos": [
-    {
-      "id": 1,
-      "name": "Silla ergonómica",
-      "descripcion": "Silla de oficina con respaldo y asiento acolchados",
-      "imagen": "https://example.com/silla.jpg",
-      "descripcionDetalle": "La silla ergonómica está diseñada para brindar máxima comodidad y soporte durante largas horas de trabajo. Cuenta con un respaldo ajustable y un asiento acolchado para reducir la fatiga muscular.",
-      "rating": "4 Estrellas",
-      "Dimensiones": "55 x 63 x 97 cm",
-      "Colores": "Negro, Gris"
-    },
-    {
-      "id": 2,
-      "name": "Escritorio de oficina",
-      "descripcion": "Escritorio de madera con amplio espacio de trabajo",
-      "imagen": "https://example.com/escritorio.jpg",
-      "descripcionDetalle": "El escritorio de oficina ofrece un espacio generoso para trabajar cómodamente. Está fabricado con madera de alta calidad y cuenta con un diseño moderno y minimalista.",
-      "rating": "4.5 Estrellas",
-      "Dimensiones": "150 x 75 x 75 cm",
-      "Colores": "Roble, Cerezo"
-    },
-    {
-      "id": 3,
-      "name": "Laptop Dell XPS 15",
-      "descripcion": "Laptop de alto rendimiento para trabajo y juegos",
-      "imagen": "https://example.com/laptop.jpg",
-      "descripcionDetalle": "La laptop Dell XPS 15 cuenta con un procesador Intel Core i7 de última generación, 16 GB de RAM y una tarjeta gráfica NVIDIA GeForce GTX 1650. Perfecta para tareas exigentes y juegos.",
-      "rating": "4.8 Estrellas",
-      "Dimensiones": "34.4 x 23 x 1.8 cm",
-      "Colores": "Plata"
-    },
-    {
-      "id": 4,
-      "name": "Impresora multifunción HP OfficeJet Pro",
-      "descripcion": "Impresora a color con funciones de escaneo y copiado",
-      "imagen": "https://example.com/impresora.jpg",
-      "descripcionDetalle": "La impresora multifunción HP OfficeJet Pro es ideal para oficinas y hogares. Imprime, escanea y copia documentos de alta calidad con facilidad. Conexión inalámbrica y compatible con dispositivos móviles.",
-      "rating": "4.2 Estrellas",
-      "Dimensiones": "43 x 48 x 30 cm",
-      "Colores": "Blanco"
-    },
-    {
-      "id": 5,
-      "name": "Auriculares inalámbricos Sony WH-1000XM4",
-      "descripcion": "Auriculares con cancelación de ruido y sonido envolvente",
-      "imagen": "https://example.com/auriculares.jpg",
-      "descripcionDetalle": "Los auriculares Sony WH-1000XM4 ofrecen una experiencia de audio superior con su tecnología de cancelación de ruido y sonido envolvente. Disfruta de tu música favorita con una calidad excepcional.",
-      "rating": "4.7 Estrellas",
-      "Dimensiones": "25 x 17.5 x 7.5 cm",
-      "Colores": "Negro, Plateado"
-    },
-    {
-      "id": 6,
-      "name": "Smartwatch Samsung Galaxy Watch 4",
-      "descripcion": "Reloj inteligente con monitoreo de actividad física y salud",
-      "imagen": "https://example.com/smartwatch.jpg",
-      "descripcionDetalle": "El Samsung Galaxy Watch 4 es un smartwatch avanzado que te ayuda a mantenerte activo y saludable. Rastrea tus entrenamientos, monitorea tu sueño y ofrece funciones de salud como el monitoreo de la frecuencia cardíaca.",
-      "rating": "4.4 Estrellas",
-      "Dimensiones": "40.4 x 39.3 x 9.8 mm",
-      "Colores": "Negro, Plata, Verde"
-    },
-    {
-      "id": 7,
-      "name": "Altavoz Bluetooth JBL Flip 5",
-      "descripcion": "Altavoz portátil con sonido potente y resistente al agua",
-      "imagen": "https://example.com/altavoz.jpg",
-      "descripcionDetalle": "El altavoz Bluetooth JBL Flip 5 es perfecto para llevar tu música a cualquier parte. Con un sonido potente y claro, diseño compacto y resistencia al agua, es ideal para fiestas en la playa o en la piscina.",
-      "rating": "4.6 Estrellas",
-      "Dimensiones": "18.5 x 7 x 7 cm",
-      "Colores": "Negro, Azul, Rojo"
-    },
-    {
-      "id": 8,
-      "name": "Cámara réflex digital Nikon D7500",
-      "descripcion": "Cámara DSLR de alto rendimiento para fotografía avanzada",
-      "imagen": "https://example.com/camara.jpg",
-      "descripcionDetalle": "La Nikon D7500 es una cámara réflex digital de gama alta diseñada para fotógrafos entusiastas y profesionales. Cuenta con un sensor de 20.9 megapíxeles, enfoque automático avanzado y grabación de video 4K.",
-      "rating": "4.7 Estrellas",
-      "Dimensiones": "13.6 x 10.4 x 7.7 cm",
-      "Colores": "Negro"
-    },
-    {
-      "id": 9,
-      "name": "Monitor LG UltraWide 34WN80C-B",
-      "descripcion": "Monitor curvo ultrawide de 34 pulgadas para productividad",
-      "imagen": "https://example.com/monitor.jpg",
-      "descripcionDetalle": "El monitor LG UltraWide 34WN80C-B ofrece una experiencia envolvente y sin interrupciones con su impresionante relación de aspecto 21:9. Ideal para multitarea y edición de contenido.",
-      "rating": "4.5 Estrellas",
-      "Dimensiones": "83.1 x 53.5 x 23.8 cm",
-      "Colores": "Negro"
-    },
-    {
-      "id": 10,
-      "name": "Teclado mecánico Corsair K70 RGB MK.2",
-      "descripcion": "Teclado de alto rendimiento con retroiluminación RGB",
-      "imagen": "https://example.com/teclado.jpg",
-      "descripcionDetalle": "El teclado mecánico Corsair K70 RGB MK.2 está diseñado para jugadores y profesionales. Cuenta con switches Cherry MX de alta calidad, retroiluminación RGB personalizable y construcción resistente.",
-      "rating": "4.6 Estrellas",
-      "Dimensiones": "46.8 x 17 x 3.6 cm",
-      "Colores": "Negro"
-    },
-    {
-      "id": 11,
-      "name": "Ratón inalámbrico Logitech MX Master 3",
-      "descripcion": "Ratón ergonómico de alta precisión para trabajo y juegos",
-      "imagen": "https://example.com/raton.jpg",
-      "descripcionDetalle": "El Logitech MX Master 3 es un ratón inalámbrico de alto rendimiento diseñado para ofrecer máxima comodidad y control. Con su forma ergonómica y sensor de seguimiento de precisión, es ideal para trabajar o jugar durante horas.",
-      "rating": "4.7 Estrellas",
-      "Dimensiones": "12.4 x 8.4 x 5.1 cm",
-      "Colores": "Gris"
-    },
-    {
-      "id": 12,
-      "name": "Tableta gráfica Wacom Intuos Pro",
-      "descripcion": "Tableta de dibujo profesional para diseñadores y artistas",
-      "imagen": "https://example.com/tableta.jpg",
-      "descripcionDetalle": "La tableta gráfica Wacom Intuos Pro es la herramienta perfecta para diseñadores, artistas y profesionales creativos. Ofrece una experiencia de dibujo natural y sensible a la presión con su lápiz óptico.",
-      "rating": "4.6 Estrellas",
-      "Dimensiones": "33.8 x 20 x 0.8 cm",
-      "Colores": "Negro"
-    },
-    {
-      "id": 13,
-      "name": "Cámara de acción GoPro HERO9 Black",
-      "descripcion": "Cámara resistente para grabar tus aventuras",
-      "imagen": "https://example.com/gopro.jpg",
-      "descripcionDetalle": "La GoPro HERO9 Black es la cámara de acción definitiva para capturar tus momentos más emocionantes. Cuenta con grabación de video 5K, resistencia al agua y a los golpes, y múltiples modos de grabación.",
-      "rating": "4.8 Estrellas",
-      "Dimensiones": "7.1 x 6.5 x 3.3 cm",
-      "Colores": "Negro"
-    },
-    {
-      "id": 14,
-      "name": "Proyector Epson Home Cinema 2200",
-      "descripcion": "Proyector Full HD para cine en casa",
-      "imagen": "https://example.com/proyector.jpg",
-      "descripcionDetalle": "El proyector Epson Home Cinema 2200 ofrece una experiencia cinematográfica en tu hogar con su resolución Full HD 1080p y brillo de 2700 lúmenes. Ideal para disfrutar películas y juegos en una pantalla grande.",
-      "rating": "4.4 Estrellas",
-      "Dimensiones": "31.5 x 30.9 x 12 cm",
-      "Colores": "Blanco"
-    },
-    {
-      "id": 15,
-      "name": "Disco duro externo WD My Passport 4TB",
-      "descripcion": "Disco duro portátil para almacenamiento y respaldo",
-      "imagen": "https://example.com/disco.jpg",
-      "descripcionDetalle": "El disco duro externo WD My Passport de 4TB te ofrece un amplio espacio de almacenamiento para tus archivos, fotos, videos y documentos importantes. Es compacto, portátil y compatible con PC y Mac.",
-      "rating": "4.5 Estrellas",
-      "Dimensiones": "10.9 x 8.2 x 1.5 cm",
-      "Colores": "Negro, Azul, Rojo"
-    }
-  ],
-  "fisios": [
-    {
-      "nombre": "Laura Martínez",
-      "imagen": "https://example.com/laura.jpg",
-      "biografia": "Fisioterapeuta especializada en rehabilitación deportiva y terapia manual. Graduada de la Universidad de Medicina con más de 10 años de experiencia.",
-      "edad": 38,
-      "horarios": [
-        "9:00 - 11:00",
-        "15:00 - 18:00"
-      ]
-    },
-    {
-      "nombre": "Carlos Ramírez",
-      "imagen": "https://example.com/carlos.jpg",
-      "biografia": "Fisioterapeuta experto en terapia acuática y rehabilitación neurológica. Licenciado en Fisioterapia con un posgrado en Neurorrehabilitación.",
-      "edad": 45,
-      "horarios": [
-        "10:00 - 13:00",
-        "16:00 - 19:00"
-      ]
-    },
-    {
-      "nombre": "Sofía González",
-      "imagen": "https://example.com/sofia.jpg",
-      "biografia": "Fisioterapeuta especializada en terapia manual ortopédica y ejercicio terapéutico. Graduada con honores de la Universidad de Fisioterapia.",
-      "edad": 32,
-      "horarios": [
-        "8:00 - 11:00",
-        "14:00 - 17:00"
-      ]
-    },
-    {
-      "nombre": "Andrés Pérez",
-      "imagen": "https://example.com/andres.jpg",
-      "biografia": "Fisioterapeuta experto en rehabilitación cardiovascular y respiratoria. Licenciado en Fisioterapia con una maestría en Terapia Cardiorrespiratoria.",
-      "edad": 40,
-      "horarios": [
-        "9:00 - 12:00",
-        "15:00 - 18:00"
-      ]
-    },
-    {
-      "nombre": "Lucía Fernández",
-      "imagen": "https://example.com/lucia.jpg",
-      "biografia": "Fisioterapeuta especializada en rehabilitación pediátrica y terapia física para niños. Graduada de la Universidad de Ciencias de la Salud.",
-      "edad": 36,
-      "horarios": [
-        "10:00 - 13:00",
-        "16:00 - 19:00"
-      ]
-    },
-    {
-      "nombre": "Javier Rodríguez",
-      "imagen": "https://example.com/javier.jpg",
-      "biografia": "Fisioterapeuta experto en terapia manual y tratamiento de lesiones deportivas. Licenciado en Fisioterapia con un posgrado en Fisioterapia Deportiva.",
-      "edad": 42,
-      "horarios": [
-        "8:00 - 11:00",
-        "14:00 - 17:00"
-      ]
-    },
-    {
-      "nombre": "Claudia Sánchez",
-      "imagen": "https://example.com/claudia.jpg",
-      "biografia": "Fisioterapeuta especializada en terapia física y rehabilitación geriátrica. Graduada de la Universidad de Ciencias de la Salud con una especialización en Geriatría.",
-      "edad": 38,
-      "horarios": [
-        "9:00 - 12:00",
-        "15:00 - 18:00"
-      ]
-    },
-    {
-      "nombre": "Diego Torres",
-      "imagen": "https://example.com/diego.jpg",
-      "biografia": "Fisioterapeuta experto en terapia manual y rehabilitación musculoesquelética. Licenciado en Fisioterapia con una maestría en Terapia Manual Ortopédica.",
-      "edad": 44,
-      "horarios": [
-        "10:00 - 13:00",
-        "16:00 - 19:00"
-      ]
-    },
-    {
-      "nombre": "Mariana López",
-      "imagen": "https://example.com/mariana.jpg",
-      "biografia": "Fisioterapeuta especializada en rehabilitación neurológica y terapia con realidad virtual. Graduada de la Universidad de Ciencias de la Salud con un posgrado en Neurorrehabilitación.",
-      "edad": 35,
-      "horarios": [
-        "9:00 - 12:00",
-        "14:00 - 17:00"
-      ]
-    },
-    {
-      "nombre": "Rodrigo Gutiérrez",
-      "imagen": "https://example.com/rodrigo.jpg",
-      "biografia": "Fisioterapeuta experto en terapia física y rehabilitación laboral. Licenciado en Fisioterapia con una especialización en Ergonomía y Salud Ocupacional.",
-      "edad": 41,
-      "horarios": [
-        "8:00 - 11:00",
-        "15:00 - 18:00"
-      ]
-    },
-    {
-      "nombre": "Valeria Ramos",
-      "imagen": "https://example.com/valeria.jpg",
-      "biografia": "Fisioterapeuta especializada en terapia manual y rehabilitación de lesiones deportivas. Graduada de la Universidad de Ciencias del Deporte con una maestría en Fisioterapia Deportiva.",
-      "edad": 33,
-      "horarios": [
-        "10:00 - 13:00",
-        "16:00 - 19:00"
-      ]
-    },
-    {
-      "nombre": "Alejandro Herrera",
-      "imagen": "https://example.com/alejandro.jpg",
-      "biografia": "Fisioterapeuta experto en terapia acuática y rehabilitación pediátrica. Licenciado en Fisioterapia con una especialización en Hidroterapia y Terapia Pediátrica.",
-      "edad": 39,
-      "horarios": [
-        "9:00 - 12:00",
-        "15:00 - 18:00"
-      ]
-    },
-    {
-      "nombre": "Camila Flores",
-      "imagen": "https://example.com/camila.jpg",
-      "biografia": "Fisioterapeuta especializada en terapia manual y tratamiento de dolores crónicos. Graduada de la Universidad de Ciencias de la Salud con una maestría en Terapia del Dolor.",
-      "edad": 37,
-      "horarios": [
-        "8:00 - 11:00",
-        "14:00 - 17:00"
-      ]
-    },
-    {
-      "nombre": "Emilio Castillo",
-      "imagen": "https://example.com/emilio.jpg",
-      "biografia": "Fisioterapeuta experto en rehabilitación cardiovascular y ejercicio terapéutico. Licenciado en Fisioterapia con un posgrado en Cardiología y Rehabilitación Cardíaca.",
-      "edad": 43,
-      "horarios": [
-        "10:00 - 13:00",
-        "16:00 - 19:00"
-      ]
-    }
-  ],
-  "ejercicios": [
-    {
-      "nombre": "Sentadillas",
-      "descripcion": "Ejercicio compuesto que trabaja los músculos de las piernas y los glúteos",
-      "pasos": "1. Colócate de pie con los pies separados a la anchura de los hombros. 2. Mantén la espalda recta y mira hacia adelante. 3. Baja lentamente flexionando las rodillas y caderas como si fueras a sentarte. 4. Desciende hasta que los muslos queden paralelos al suelo. 5. Empuja con los talones para volver a la posición inicial."
-    },
-    {
-      "nombre": "Plancha abdominal",
-      "descripcion": "Ejercicio isométrico que fortalece los músculos abdominales y la espalda",
-      "pasos": "1. Apóyate en el suelo sobre los antebrazos y las puntas de los pies. 2. Mantén una línea recta desde los talones hasta la cabeza. 3. Contrae los músculos abdominales y glúteos. 4. Mantén esta posición durante 30 segundos a 1 minuto."
-    },
-    {
-      "nombre": "Flexiones de brazos",
-      "descripcion": "Ejercicio de fuerza para trabajar los músculos del pecho, hombros y tríceps",
-      "pasos": "1. Colócate en posición de plancha con las manos debajo de los hombros. 2. Mantén el cuerpo recto y los abdominales contraídos. 3. Baja lentamente hasta que el pecho casi toque el suelo. 4. Empuja con fuerza para volver a la posición inicial."
-    },
-    {
-      "nombre": "Elevaciones laterales",
-      "descripcion": "Ejercicio para fortalecer los hombros y deltoides",
-      "pasos": "1. Ponte de pie con los pies separados y las rodillas ligeramente flexionadas. 2. Sujeta dos pesas con los brazos extendidos a los costados. 3. Levanta los brazos lateralmente hasta la altura de los hombros. 4. Baja lentamente a la posición inicial."
-    },
-    {
-      "nombre": "Estocadas",
-      "descripcion": "Ejercicio compuesto que trabaja piernas, glúteos y core",
-      "pasos": "1. Colócate de pie con los pies juntos. 2. Da un paso largo hacia adelante con la pierna derecha. 3. Baja lentamente hasta que ambas rodillas formen ángulos de 90 grados. 4. Empuja con la pierna delantera para volver a la posición inicial. 5. Repite con la otra pierna."
-    },
-    {
-      "nombre": "Remo con mancuernas",
-      "descripcion": "Ejercicio para fortalecer la espalda y los bíceps",
-      "pasos": "1. Ponte de pie con los pies separados a la anchura de las caderas. 2. Inclínate ligeramente hacia adelante con la espalda recta. 3. Sujeta las mancuernas con los brazos extendidos hacia abajo. 4. Contrae los omóplatos y lleva las mancuernas hacia el abdomen."
-    },
-    {
-      "nombre": "Elevaciones de cadera",
-      "descripcion": "Ejercicio para fortalecer los glúteos y la parte baja de la espalda",
-      "pasos": "1. Acuéstate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo. 2. Contrae los glúteos y eleva la cadera hasta formar una línea recta desde las rodillas hasta los hombros. 3. Mantén la posición durante unos segundos y luego baja lentamente."
-    },
-    {
-      "nombre": "Zancadas",
-      "descripcion": "Ejercicio compuesto que trabaja piernas, glúteos y core",
-      "pasos": "1. Ponte de pie con los pies juntos. 2. Da un paso largo hacia adelante con la pierna derecha. 3. Baja hasta que ambas rodillas formen ángulos de 90 grados. 4. Empuja con la pierna delantera para volver a la posición inicial. 5. Repite con la otra pierna."
-    },
-    {
-      "nombre": "Elevaciones de pantorrillas",
-      "descripcion": "Ejercicio para fortalecer los gemelos y tobillos",
-      "pasos": "1. Ponte de pie con los pies separados a la anchura de las caderas. 2. Eleva los talones levantándote sobre las puntas de los pies. 3. Mantén la posición durante un segundo. 4. Baja lentamente hasta la posición inicial."
-    },
-    {
-      "nombre": "Crunch abdominal",
-      "descripcion": "Ejercicio para fortalecer los músculos abdominales",
-      "pasos": "1. Acuéstate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo. 2. Cruza los brazos sobre el pecho. 3. Contrae los abdominales y eleva el tronco unos centímetros del suelo. 4. Mantén la posición y luego baja lentamente."
-    },
-    {
-      "nombre": "Puentes de glúteos",
-      "descripcion": "Ejercicio para fortalecer los glúteos y la parte baja de la espalda",
-      "pasos": "1. Acuéstate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo. 2. Eleva la cadera hasta formar una línea recta desde las rodillas hasta los hombros. 3. Mantén la posición durante unos segundos. 4. Baja lentamente a la posición inicial."
-    },
-    {
-      "nombre": "Extensiones de tríceps",
-      "descripcion": "Ejercicio para fortalecer los tríceps",
-      "pasos": "1. Siéntate en una silla con los pies apoyados en el suelo. 2. Sujeta un peso con ambas manos detrás de la cabeza. 3. Extiende los brazos hacia arriba hasta que queden rectos. 4. Baja lentamente a la posición inicial."
-    },
-    {
-      "nombre": "Abdominales oblicuos",
-      "descripcion": "Ejercicio para fortalecer los músculos oblicuos del abdomen",
-      "pasos": "1. Acuéstate de lado con las piernas extendidas. 2. Coloca un antebrazo en el suelo y el otro brazo cruzado sobre el pecho. 3. Contrae los abdominales y eleva el tronco unos centímetros del suelo. 4. Mantén la posición y luego baja lentamente."
-    },
-    {
-      "nombre": "Peso muerto con barra",
-      "descripcion": "Ejercicio compuesto que trabaja piernas, espalda y brazos",
-      "pasos": "1. Ponte de pie con los pies separados a la anchura de las caderas y la barra en el suelo. 2. Agárrate a la barra con un agarre overhand. 3. Mantén la espalda recta y levanta la barra hasta la altura de las caderas. 4. Baja lentamente a la posición inicial."
-    }
-  ],
-  "grabaciones": [
-    {
-      "date": "12/05/2024",
-      "name": "Clase de yoga",
-      "duration": "60 minutos",
-      "access": "https://example.com/yoga-class"
-    },
-    {
-      "date": "15/05/2024",
-      "name": "Entrenamiento de fuerza",
-      "duration": "45 minutos",
-      "access": "https://example.com/strength-training"
-    },
-    {
-      "date": "18/05/2024",
-      "name": "Zumba",
-      "duration": "90 minutos",
-      "access": "https://example.com/zumba-class"
-    },
-    {
-      "date": "20/05/2024",
-      "name": "Pilates",
-      "duration": "75 minutos",
-      "access": "https://example.com/pilates-class"
-    },
-    {
-      "date": "22/05/2024",
-      "name": "Entrenamiento de resistencia",
-      "duration": "60 minutos",
-      "access": "https://example.com/endurance-training"
-    },
-    {
-      "date": "25/05/2024",
-      "name": "Yoga restaurativa",
-      "duration": "45 minutos",
-      "access": "https://example.com/restorative-yoga"
-    },
-    {
-      "date": "28/05/2024",
-      "name": "Kickboxing",
-      "duration": "60 minutos",
-      "access": "https://example.com/kickboxing-class"
-    },
-    {
-      "date": "30/05/2024",
-      "name": "Entrenamiento de circuito",
-      "duration": "75 minutos",
-      "access": "https://example.com/circuit-training"
-    },
-    {
-      "date": "02/06/2024",
-      "name": "Baile latino",
-      "duration": "90 minutos",
-      "access": "https://example.com/latin-dance"
-    },
-    {
-      "date": "05/06/2024",
-      "name": "HIIT",
-      "duration": "45 minutos",
-      "access": "https://example.com/hiit-workout"
-    },
-    {
-      "date": "08/06/2024",
-      "name": "Yoga para principiantes",
-      "duration": "60 minutos",
-      "access": "https://example.com/beginner-yoga"
-    },
-    {
-      "date": "10/06/2024",
-      "name": "Entrenamiento de core",
-      "duration": "30 minutos",
-      "access": "https://example.com/core-training"
-    },
-    {
-      "date": "12/06/2024",
-      "name": "Danza del vientre",
-      "duration": "75 minutos",
-      "access": "https://example.com/belly-dance"
-    },
-    {
-      "date": "15/06/2024",
-      "name": "Boxeo",
-      "duration": "60 minutos",
-      "access": "https://example.com/boxing-class"
-    },
-    {
-      "date": "18/06/2024",
-      "name": "Yoga dinámica",
-      "duration": "90 minutos",
-      "access": "https://example.com/dynamic-yoga"
-    }
-  ]
+"productos": [
+{
+"id": 1,
+"name": "Silla ergonómica",
+"descripcion": "Silla de oficina con respaldo y asiento acolchados",
+"imagen": "https://example.com/silla.jpg",
+"rating": "4 Estrellas",
+"Dimensiones": "55 x 63 x 97 cm",
+"Colores": "Negro, Gris"
+},
+{
+"id": 2,
+"name": "Escritorio de oficina",
+"descripcion": "Escritorio de madera con amplio espacio de trabajo",
+"imagen": "https://example.com/escritorio.jpg",
+"rating": "4.5 Estrellas",
+"Dimensiones": "150 x 75 x 75 cm",
+"Colores": "Roble, Cerezo"
+},
+{
+"id": 3,
+"name": "Laptop Dell XPS 15",
+"descripcion": "Laptop de alto rendimiento para trabajo y juegos",
+"imagen": "https://example.com/laptop.jpg",
+"rating": "4.8 Estrellas",
+"Dimensiones": "34.4 x 23 x 1.8 cm",
+"Colores": "Plata"
+},
+{
+"id": 4,
+"name": "Impresora multifunción HP OfficeJet Pro",
+"descripcion": "Impresora a color con funciones de escaneo y copiado",
+"imagen": "https://example.com/impresora.jpg",
+"rating": "4.2 Estrellas",
+"Dimensiones": "43 x 48 x 30 cm",
+"Colores": "Blanco"
+},
+{
+"id": 5,
+"name": "Auriculares inalámbricos Sony WH-1000XM4",
+"descripcion": "Auriculares con cancelación de ruido y sonido envolvente",
+"imagen": "https://example.com/auriculares.jpg",
+"rating": "4.7 Estrellas",
+"Dimensiones": "25 x 17.5 x 7.5 cm",
+"Colores": "Negro, Plateado"
+}
+],
+"fisios": [
+{
+"id": 1,
+"nombre": "Laura Martínez",
+"imagen": "https://example.com/laura.jpg",
+"biografia": "Fisioterapeuta especializada en rehabilitación deportiva y terapia manual. Graduada de la Universidad de Medicina con más de 10 años de experiencia.",
+"edad": 38,
+"horarios": [
+"9:00 - 11:00",
+"15:00 - 18:00"
+]
+},
+{
+"id": 2,
+"nombre": "Carlos Ramírez",
+"imagen": "https://example.com/carlos.jpg",
+"biografia": "Fisioterapeuta experto en terapia acuática y rehabilitación neurológica. Licenciado en Fisioterapia con un posgrado en Neurorrehabilitación.",
+"edad": 45,
+"horarios": [
+"10:00 - 13:00",
+"16:00 - 19:00"
+]
+},
+{
+"id": 3,
+"nombre": "Sofía González",
+"imagen": "https://example.com/sofia.jpg",
+"biografia": "Fisioterapeuta especializada en terapia manual ortopédica y ejercicio terapéutico. Graduada con honores de la Universidad de Fisioterapia.",
+"edad": 32,
+"horarios": [
+"8:00 - 11:00",
+"14:00 - 17:00"
+]
+},
+{
+"id": 4,
+"nombre": "Andrés Pérez",
+"imagen": "https://example.com/andres.jpg",
+"biografia": "Fisioterapeuta experto en rehabilitación cardiovascular y respiratoria. Licenciado en Fisioterapia con una maestría en Terapia Cardiorrespiratoria.",
+"edad": 40,
+"horarios": [
+"9:00 - 12:00",
+"15:00 - 18:00"
+]
+},
+{
+"id": 5,
+"nombre": "Lucía Fernández",
+"imagen": "https://example.com/lucia.jpg",
+"biografia": "Fisioterapeuta especializada en rehabilitación pediátrica y terapia física para niños. Graduada de la Universidad de Ciencias de la Salud.",
+"edad": 36,
+"horarios": [
+"10:00 - 13:00",
+"16:00 - 19:00"
+]
+}
+],
+"ejercicios": [
+{
+"id": 1,
+"nombre": "Sentadillas",
+"descripcion": "Ejercicio compuesto que trabaja los músculos de las piernas y los glúteos",
+"pasos": "1. Colócate de pie con los pies separados a la anchura de los hombros. 2. Mantén la espalda recta y mira hacia adelante. 3. Baja lentamente flexionando las rodillas y caderas como si fueras a sentarte. 4. Desciende hasta que los muslos queden paralelos al suelo. 5. Empuja con los talones para volver a la posición inicial."
+},
+{
+"id": 2,
+"nombre": "Plancha abdominal",
+"descripcion": "Ejercicio isométrico que fortalece los músculos abdominales y la espalda",
+"pasos": "1. Apóyate en el suelo sobre los antebrazos y las puntas de los pies. 2. Mantén una línea recta desde los talones hasta la cabeza. 3. Contrae los músculos abdominales y glúteos. 4. Mantén esta posición durante 30 segundos a 1 minuto."
+},
+{
+"id": 3,
+"nombre": "Flexiones de brazos",
+"descripcion": "Ejercicio de fuerza para trabajar los músculos del pecho, hombros y tríceps",
+"pasos": "1. Colócate en posición de plancha con las manos debajo de los hombros. 2. Mantén el cuerpo recto y los abdominales contraídos. 3. Baja lentamente hasta que el pecho casi toque el suelo. 4. Empuja con fuerza para volver a la posición inicial."
+},
+{
+"id": 4,
+"nombre": "Elevaciones laterales",
+"descripcion": "Ejercicio para fortalecer los hombros y deltoides",
+"pasos": "1. Ponte de pie con los pies separados y las rodillas ligeramente flexionadas. 2. Sujeta dos pesas con los brazos extendidos a los costados. 3. Levanta los brazos lateralmente hasta la altura de los hombros. 4. Baja lentamente a la posición inicial."
+},
+{
+"id": 5,
+"nombre": "Estocadas",
+"descripcion": "Ejercicio compuesto que trabaja piernas, glúteos y core",
+"pasos": "1. Colócate de pie con los pies juntos. 2. Da un paso largo hacia adelante con la pierna derecha. 3. Baja lentamente hasta que ambas rodillas formen ángulos de 90 grados. 4. Empuja con la pierna delantera para volver a la posición inicial. 5. Repite con la otra pierna."
+}
+],
+"grabaciones": [
+{
+"id": 1,
+"date": "12/05/2024",
+"name": "Clase de yoga",
+"duration": "60 minutos",
+"access": "https://example.com/yoga-class"
+},
+{
+"id": 2,
+"date": "15/05/2024",
+"name": "Entrenamiento de fuerza",
+"duration": "45 minutos",
+"access": "https://example.com/strength-training"
+},
+{
+"id": 3,
+"date": "18/05/2024",
+"name": "Zumba",
+"duration": "90 minutos",
+"access": "https://example.com/zumba-class"
+},
+{
+"id": 4,
+"date": "20/05/2024",
+"name": "Pilates",
+"duration": "75 minutos",
+"access": "https://example.com/pilates-class"
+},
+{
+"id": 5,
+"date": "22/05/2024",
+"name": "Entrenamiento de resistencia",
+"duration": "60 minutos",
+"access": "https://example.com/endurance-training"
+}
+]
 }
