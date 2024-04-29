@@ -1,50 +1,55 @@
 {
 "productos": [
-{
-"id": 1,
-"name": "Silla ergonómica",
-"descripcion": "Silla de oficina con respaldo y asiento acolchados",
-"imagen": "https://example.com/silla.jpg",
-"rating": "4 Estrellas",
-"Dimensiones": "55 x 63 x 97 cm",
-"Colores": "Negro, Gris"
-},
-{
-"id": 2,
-"name": "Escritorio de oficina",
-"descripcion": "Escritorio de madera con amplio espacio de trabajo",
-"imagen": "https://example.com/escritorio.jpg",
-"rating": "4.5 Estrellas",
-"Dimensiones": "150 x 75 x 75 cm",
-"Colores": "Roble, Cerezo"
-},
-{
-"id": 3,
-"name": "Laptop Dell XPS 15",
-"descripcion": "Laptop de alto rendimiento para trabajo y juegos",
-"imagen": "https://example.com/laptop.jpg",
-"rating": "4.8 Estrellas",
-"Dimensiones": "34.4 x 23 x 1.8 cm",
-"Colores": "Plata"
-},
-{
-"id": 4,
-"name": "Impresora multifunción HP OfficeJet Pro",
-"descripcion": "Impresora a color con funciones de escaneo y copiado",
-"imagen": "https://example.com/impresora.jpg",
-"rating": "4.2 Estrellas",
-"Dimensiones": "43 x 48 x 30 cm",
-"Colores": "Blanco"
-},
-{
-"id": 5,
-"name": "Auriculares inalámbricos Sony WH-1000XM4",
-"descripcion": "Auriculares con cancelación de ruido y sonido envolvente",
-"imagen": "https://example.com/auriculares.jpg",
-"rating": "4.7 Estrellas",
-"Dimensiones": "25 x 17.5 x 7.5 cm",
-"Colores": "Negro, Plateado"
-}
+  {
+    "id": 1,
+    "name": "Silla ergonómica",
+    "descripcion": "Silla de oficina con respaldo y asiento acolchados",
+    "imagen": "https://example.com/silla.jpg",
+    "rating": "4 Estrellas",
+    "Dimensiones": "55 x 63 x 97 cm",
+    "Colores": "Negro, Gris",
+    "precio": 250.00
+  },
+  {
+    "id": 2,
+    "name": "Escritorio de oficina",
+    "descripcion": "Escritorio de madera con amplio espacio de trabajo",
+    "imagen": "https://example.com/escritorio.jpg",
+    "rating": "4.5 Estrellas",
+    "Dimensiones": "150 x 75 x 75 cm",
+    "Colores": "Roble, Cerezo",
+    "precio": 350.00
+  },
+  {
+    "id": 3,
+    "name": "Laptop Dell XPS 15",
+    "descripcion": "Laptop de alto rendimiento para trabajo y juegos",
+    "imagen": "https://example.com/laptop.jpg",
+    "rating": "4.8 Estrellas",
+    "Dimensiones": "34.4 x 23 x 1.8 cm",
+    "Colores": "Plata",
+    "precio": 1500.00
+  },
+  {
+    "id": 4,
+    "name": "Impresora multifunción HP OfficeJet Pro",
+    "descripcion": "Impresora a color con funciones de escaneo y copiado",
+    "imagen": "https://example.com/impresora.jpg",
+    "rating": "4.2 Estrellas",
+    "Dimensiones": "43 x 48 x 30 cm",
+    "Colores": "Blanco",
+    "precio": 300.00
+  },
+  {
+    "id": 5,
+    "name": "Auriculares inalámbricos Sony WH-1000XM4",
+    "descripcion": "Auriculares con cancelación de ruido y sonido envolvente",
+    "imagen": "https://example.com/auriculares.jpg",
+    "rating": "4.7 Estrellas",
+    "Dimensiones": "25 x 17.5 x 7.5 cm",
+    "Colores": "Negro, Plateado",
+    "precio": 350.00
+  }
 ],
 "fisios": [
 {
