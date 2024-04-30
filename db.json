@@ -176,5 +176,30 @@
 "duration": "60 minutos",
 "access": "https://example.com/endurance-training"
 }
+],
+"problemas": [
+[
+  {
+    "id": 1,
+    "name": "Dolor de Espalda por Mala Postura"
+  },
+  {
+    "id": 2,
+    "name": "Síndrome del Túnel Carpiano por Uso Excesivo del Teclado"
+  },
+  {
+    "id": 3,
+    "name": "Dolor de Cuello por Uso Prolongado del Teléfono"
+  },
+  {
+    "id": 4,
+    "name": "Dolor de Espalda por Levantamiento de Objetos Pesados"
+  },
+  {
+    "id": 5,
+    "name": "Dolor de Muñeca por Uso Incorrecto del Mouse"
+  }
+]
+
 ]
 }
