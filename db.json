@@ -178,7 +178,6 @@
 }
 ],
 "problemas": [
-[
   {
     "id": 1,
     "name": "Dolor de Espalda por Mala Postura"
@@ -199,7 +198,5 @@
     "id": 5,
     "name": "Dolor de Muñeca por Uso Incorrecto del Mouse"
   }
-]
-
 ]
 }
