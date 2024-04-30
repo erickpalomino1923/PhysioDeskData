@@ -55,7 +55,7 @@
 {
 "id": 1,
 "nombre": "Laura Martínez",
-"imagen": "https://example.com/laura.jpg",
+"imagen": "https://as2.ftcdn.net/v2/jpg/04/78/29/83/1000_F_478298341_7r18xxdhIoGImOXbu4Nr1zeQmjrYcfWR.jpg",
 "biografia": "Fisioterapeuta especializada en rehabilitación deportiva y terapia manual. Graduada de la Universidad de Medicina con más de 10 años de experiencia.",
 "edad": 38,
 "horarios": [
@@ -66,7 +66,7 @@
 {
 "id": 2,
 "nombre": "Carlos Ramírez",
-"imagen": "https://example.com/carlos.jpg",
+"imagen": "https://st.depositphotos.com/1518767/3917/i/450/depositphotos_39179963-stock-photo-male-doctor-with-laptop-at.jpg",
 "biografia": "Fisioterapeuta experto en terapia acuática y rehabilitación neurológica. Licenciado en Fisioterapia con un posgrado en Neurorrehabilitación.",
 "edad": 45,
 "horarios": [
@@ -77,7 +77,7 @@
 {
 "id": 3,
 "nombre": "Sofía González",
-"imagen": "https://example.com/sofia.jpg",
+"imagen": "https://s3.envato.com/files/428081898/DSC_5850.jpg",
 "biografia": "Fisioterapeuta especializada en terapia manual ortopédica y ejercicio terapéutico. Graduada con honores de la Universidad de Fisioterapia.",
 "edad": 32,
 "horarios": [
@@ -88,7 +88,7 @@
 {
 "id": 4,
 "nombre": "Andrés Pérez",
-"imagen": "https://example.com/andres.jpg",
+"imagen": "https://st2.depositphotos.com/2249091/12243/i/450/depositphotos_122437232-stock-photo-therapist-helping-woman-with-depression.jpg",
 "biografia": "Fisioterapeuta experto en rehabilitación cardiovascular y respiratoria. Licenciado en Fisioterapia con una maestría en Terapia Cardiorrespiratoria.",
 "edad": 40,
 "horarios": [
@@ -99,7 +99,7 @@
 {
 "id": 5,
 "nombre": "Lucía Fernández",
-"imagen": "https://example.com/lucia.jpg",
+"imagen": "https://st2.depositphotos.com/1518767/7617/i/450/depositphotos_76170613-stock-photo-psychologist-sitting-on-the-couch.jpg",
 "biografia": "Fisioterapeuta especializada en rehabilitación pediátrica y terapia física para niños. Graduada de la Universidad de Ciencias de la Salud.",
 "edad": 36,
 "horarios": [
